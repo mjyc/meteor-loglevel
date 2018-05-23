@@ -1,4 +1,4 @@
-import * as log from 'loglevel';
+import log from 'meteor/mjyc:loglevel';
 
 const logging = Meteor.isServer ? Meteor.settings.logging : Meteor.settings.public.logging;
 if (logging) {

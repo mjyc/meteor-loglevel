@@ -2,6 +2,8 @@
 
 Meteor package for [pimterry\'s loglevel](https://github.com/pimterry/loglevel).
 
+For now, it is a thin wrapper around loglevel.
+
 ## Example
 
 Configure your Meteor settings file, e.g.
@@ -27,9 +29,7 @@ Configure your Meteor settings file, e.g.
   ...
 ```
 
-and then use it!
-
-in your `server_file.js`:
+and then use it! in your `server_file.js`:
 
 ```
 import log from 'meteor/mjyc:loglevel';

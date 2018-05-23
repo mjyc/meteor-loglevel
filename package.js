@@ -2,7 +2,7 @@ Package.describe({
   name: 'mjyc:loglevel',
   version: '0.0.1',
   summary: 'Meteor package for pimterry\'s loglevel',
-  git: '',  // Create a repo
+  git: 'https://github.com/mjyc/meteor-loglevel',
   documentation: 'README.md'
 });
 
