@@ -12,14 +12,14 @@ Configure your Meteor settings file, e.g.
   ...
 
   "public": {
-    "logging": {  // client logging
+    "loglevel": {  // client logging
       "default": "debug"
     }
   },
 
   ...
 
-  "logging": {  // server logging
+  "loglevel": {  // server logging
     "default": "debug",
     "levels": {
       "fixtures": "info"

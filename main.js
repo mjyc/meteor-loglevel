@@ -1,11 +1,11 @@
 import * as log from 'loglevel';
 
-const logging = Meteor.isServer ? Meteor.settings.logging : Meteor.settings.public.logging;
-if (logging) {
-  if (logging.default) log.setDefaultLevel(logging.default);
-  if (logging.levels) {
-    for (let name in logging.levels) {
-      log.getLogger(name).setLevel(logging.levels[name]);
+const settings = Meteor.isServer ? Meteor.settings.loglevel : Meteor.settings.public.loglevel;
+if (settings) {
+  if (settings.default) log.setDefaultLevel(settings.default);
+  if (settings.levels) {
+    for (let name in settings.levels) {
+      log.getLogger(name).setLevel(settings.levels[name]);
     }
   }
 }
