@@ -2,7 +2,7 @@
 
 Meteor package for [pimterry\'s loglevel](https://github.com/pimterry/loglevel).
 
-For now, it is a thin wrapper around loglevel.
+It is a minimal wrapper around loglevel.
 
 ## Example
 
